@@ -29,7 +29,7 @@ st.sidebar.header("🔧 Configurazione Sistema")
 # Parametri principali
 ticker = st.sidebar.selectbox(
     "📈 Ticker da analizzare",
-    ["^GSPC", "^IXIC", "^DJI", "^RUT", ^STXX50E", "^GDAXI", "FTSEMIB.MI", "^VIX", ""N225", "^HSI", "AAPL", "MSFT", "GOOGL", "TSLA"],
+    ["^GSPC", "^IXIC", "^DJI", "^RUT", ^STOXX50E", "^GDAXI", "FTSEMIB.MI", "^VIX", ""N225", "^HSI", "AAPL", "MSFT", "GOOGL", "TSLA"],
     index=0,
     help="Seleziona l'asset da analizzare"
 )
